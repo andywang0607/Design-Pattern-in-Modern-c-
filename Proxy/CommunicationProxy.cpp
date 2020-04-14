@@ -15,6 +15,11 @@ struct Pong : Pingable
     }
 };
 
+void tryit(Pingable& pp)
+{
+    wcout << pp.ping(L""ping) << endl;
+}
+
 int main()
 {
     return 0;
